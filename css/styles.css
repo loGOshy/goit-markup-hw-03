@@ -24,12 +24,16 @@ body {
 }
 
 h1,
-h2,
 h3,
 h4,
 p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 /* header */
@@ -163,6 +167,10 @@ p {
   border-color: #2196f3;
 }
 /* main features */
+.features-container {
+  padding-top: 89px;
+  padding-bottom: 94px;
+}
 .list-features {
   display: flex;
   justify-content: space-between;
@@ -180,6 +188,24 @@ p {
   text-transform: uppercase;
   color: #212121;
 }
+.feature-title {
+  margin-bottom: 10px;
+}
+.features-images-items {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features-images-items .features-image {
+  margin: 0;
+}
+
 .feature-dasc {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -192,10 +218,42 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
 }
+/* Чем мы занимаемся */
+.labor-list {
+  display: flex;
+  justify-content: space-between;
+}
+.labor-items {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.labor-container {
+  padding-bottom: 94px;
+}
 .work-item {
   text-align: center;
   color: #ffffff;
 }
+
+/* Наша команда */
+.our-team-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+}
+.our-team-list img {
+  margin-bottom: 30px;
+}
+.team-man {
+  margin-bottom: 10px;
+}
+
 .team-man,
 .team-man-position {
   font-weight: 500;
@@ -207,7 +265,22 @@ p {
 }
 .team-man-position {
   color: #757575;
+  margin-bottom: 16px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-list-box {
+  width: 206px;
+  height: 44px;
+  
+}
+
+.our-team-list {
+  display: flex;
+  justify-content: space-between;}
 /* footer */
 .footer {
   background-color: #757575;
