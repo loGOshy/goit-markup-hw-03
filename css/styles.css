@@ -122,6 +122,8 @@ h2 {
   text-align: center;
   padding-top: 195px;
   padding-bottom: 205px;
+
+  background-color: #dcdde2;
 }
 .main-title-container {
   margin-right: auto;
@@ -130,7 +132,6 @@ h2 {
   height: 120px;
 
   margin-bottom: 30px;
-  background-color: #757575;
 }
 
 .main-title {
@@ -240,13 +241,12 @@ h2 {
 }
 
 /* Наша команда */
-.our-team-container {
+.our-team-container,
+.customers-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-
-}
 .our-team-list img {
   margin-bottom: 30px;
 }
@@ -263,24 +263,49 @@ h2 {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+}
 .team-man-position {
   color: #757575;
   margin-bottom: 16px;
 }
-
-.social-list {
-  display: flex;
-  justify-content: space-between;
-}
 .social-list-box {
   width: 206px;
   height: 44px;
-  
+  margin: 0 auto;
+}
+.social-list a {
+}
+.social-list .icon {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.our-team-list {
+.social-list {
+  display: block;
   display: flex;
-  justify-content: space-between;}
+  justify-content: space-between;
+}
+
+/* Клиенты */
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers-icon {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #afb1b8;
+  border-radius: 4px;
+}
 /* footer */
 .footer {
   background-color: #757575;
